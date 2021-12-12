@@ -11,14 +11,14 @@ Install it before compiling the source code.
 
 ### How to install
 
+To compile the program from source Cmake has to be installed.  
+
 1. Clone the repository or download & extract the compressed file.  
 2. Open the folder.  
 3. Run the following commands.  
 ```zsh
-./autogen.sh
-mkdir build
+cmake -S . -B build -D CMAKE_BUILD_TYPE=Release
 cd build
-../configure
 sudo make install
 ```
 
