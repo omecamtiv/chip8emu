@@ -11,7 +11,7 @@ Install it before compiling the source code.
 
 ### How to install
 
-To compile the program from source Cmake has to be installed.  
+To compile the program from source CMake has to be installed.  
 
 1. Clone the repository or download & extract the compressed file.  
 2. Open the folder.  
